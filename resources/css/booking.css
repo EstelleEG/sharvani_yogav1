@@ -14,8 +14,8 @@ a {
 /************************************ HEADER NAV *******************************************************/
 /* logo is child of nav */
 .logo {
-  width: 20rem;
-  margin-left: 3rem;
+  width: 10rem;
+  margin-left: 6rem;
   padding-bottom: 5rem;
 }
 
@@ -96,7 +96,6 @@ nav {
 }
 
 /************************** MAIN SECTION ********************************/
-
 .teacher i {
   display: flex;
   padding-top: 20rem;
@@ -109,17 +108,16 @@ h2 {
   text-shadow: 0px 1px black;
   text-align: center;
   padding-top: 5rem;
-  ;
 }
 
 .mat {
   width: 3.5rem;
-  height: 8rem;
+  height: 10rem;
   font-size: 10;
   text-align: center;
   background: #53b89a;
   background: linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
-  margin: 5px auto;
+  margin: 15px auto;
   box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0, 0, 0, 0.5);
   position: relative;
 }
@@ -140,8 +138,8 @@ h2 {
 }
 
 .parent {
-  width: 25rem;
-  height: 44rem;
+  width: 35rem;
+  height: 40rem;
   background-color: #dcdcdc;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(6, 1fr);
@@ -149,6 +147,7 @@ h2 {
   grid-row-gap: 0px;
   margin-bottom: 5rem;
   margin-top: 5rem;
+  padding-top: 5rem;
 }
 
 .wholecontainer div {
@@ -267,7 +266,7 @@ h2 {
 
 /************************* FOOTER ************************************/
 .logofooter {
-  width: 22rem;
+  width: 10rem;
 }
 
 footer {

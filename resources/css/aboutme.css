@@ -13,8 +13,8 @@ a{
 /************************************ HEADER NAV *******************************************************/
 /* logo is child of nav */
 .logo {
-  width: 20rem;
-  margin-left: 3rem;
+  width: 10rem;
+  margin-left: 6rem;
   padding-bottom: 5rem;
 }
 
@@ -249,7 +249,7 @@ font-size: 1.5rem;;
 
 /************************* FOOTER ************************************/
 .logofooter {
-  width: 22rem;
+  width: 10rem;
 }
 
 footer {
