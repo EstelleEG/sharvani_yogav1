@@ -1,0 +1,909 @@
+/* GENERAL*/
+* {
+  margin:0;
+  padding:0;
+  font-family: 'Work Sans', sans-serif;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+/************************************ HEADER NAV *******************************************************/
+/* logo is child of nav */
+.logo {
+  width: 10rem;
+  margin-left: 6rem;
+  padding-bottom: 5rem;
+}
+
+/* is parent of logo and tabs a*/
+nav {
+  width: 100%;
+  height: 19rem;
+  background-color: #f1efef;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/*a are children of tabs*/
+.tabs {
+  /* is child of nav and parent of the a*/
+  display: flex;
+  width: 60%;
+  justify-content: space-around;
+
+}
+
+.tabs>a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #1e8d6b;
+  display: block;
+}
+
+.tabs>a:hover {
+  color: #53a89b;
+}
+
+.btnenrol button {
+  width: 10rem;
+  height: 3rem;
+  color: whitesmoke;
+  background-color: #53b89a;
+  border-radius: 0.5rem;
+  border: none;
+  margin-left: 0.5rem;
+  font-size: 1.3rem;
+  margin-right: 1%;
+  cursor: pointer;
+}
+
+.btnenrol button a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.btnenrol button:hover {
+  background-color: #1e8d6b;
+  box-shadow: 2px 2px 2px 0px;
+}
+
+/***for iconsSM******/
+.iconsSM>a>i {
+  font-size: 2rem;
+  color: #53b89a;
+  margin-left: 1rem;
+}
+
+.iconsSM>a>i:hover {
+  color: #1e8d6b;
+}
+
+/***for iconsLog******/
+.iconsLog>a>i {
+  font-size: 1.9rem;
+  color: #53b89a;
+  margin-left: 1rem;
+}
+
+.iconsLog>a>i:hover {
+  color: #1e8d6b;
+}
+
+
+/****************************************** SECTION ******************************************/
+.cover-image {
+  /* The image */
+  background-image: url(https://purewows3.imgix.net/images/articles/2021_03/advanced-yoga-poses-crane.jpg?auto=format,compress&cs=strip);
+  /* Background colour if image is unavailable */
+  background-color: #1e1e1e;
+  /* Set a specified height */
+  height: 55rem;
+  /* Center the image */
+  background-position: center;
+  /* Do not repeat the image */
+  background-repeat: no-repeat;
+  /* Resize the background image to cover the entire container */
+  background-size: cover;
+  position: relative;
+  padding-top: 10rem;
+}
+
+.coverimg-text {
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+}
+
+.coverimg-text h1,
+h2 {
+  color: #53b89a;
+  margin: 0 0 40px 0;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+.coverbtn {
+  width: 14rem;
+  height: 4rem;
+  padding: 10px 30px;
+  background-color: #53b89a;
+  font-size: 1.5rem;
+  color: whitesmoke;
+  border-radius: 0.5rem;
+  border: none;
+  margin-top: 1.2rem;
+  margin-left: 0.5rem;
+  padding: 1px;
+  margin-right: 1%;
+  cursor: pointer;
+}
+
+.coverbtn a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.coverbtn:hover {
+  background-color: #1e8d6b;
+  box-shadow: 2px 2px 2px 0px;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 50rem;
+  background-color: whitesmoke;
+  flex-wrap: wrap;
+  padding-top: 0rem;
+  margin-bottom: 0rem;
+
+}
+
+.idmeimg {
+  width: 40%;
+  margin-right: 5rem;
+  border-color: #53b89a;
+}
+
+.idmeimg img {
+  background-size: cover;
+  float: right;
+  border-radius: 0%;
+}
+
+.textintro {
+  width: 45%;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  color: #53b89a;
+}
+
+.textintro h3 {
+  font-size: 4rem;
+  font-weight: 600;
+  /*font-family: 'Birthstone', cursive;*/
+  /*font-family: 'Marck Script', cursive;*/
+  /*font-family: 'Mrs Saint Delafield', cursive;*/
+  /* font-family: 'Tangerine', cursive; */
+}
+
+.textintro h1 {
+  font-size: 5rem;
+  /*font-family: 'Great Vibes', cursive;*/
+  /*font-family: 'Alex Brush', cursive;*/
+  /*font-family: 'Charm', cursive;*/
+  font-family: 'Tangerine', cursive;
+}
+
+.textintro p {
+  font-size: 1.3rem;
+  line-height: 2rem;
+  color: black;
+}
+
+.textintro h3,
+h1,
+p {
+  padding: 0.1rem;
+}
+
+/******************************* Btn Book a class ****************************************************/
+
+.btnBook a {
+  /*link of btn*/
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.btnBook {
+  width: 14rem;
+  height: 4rem;
+  color: whitesmoke;
+  background-color: #53b89a;
+  border-radius: 0.5rem;
+  border: none;
+  margin-top: 1.2rem;
+  margin-left: 0.5rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 1px;
+  margin-right: 1%;
+  cursor: pointer;
+}
+
+.btnBook:hover {
+  background-color: #1e8d6b;
+  box-shadow: 2px 2px 2px 0px;
+}
+
+
+/********************************** Btn Subscribe ***************************************************/
+.btnSubscribe {
+  width: 14rem;
+  height: 4rem;
+  color: whitesmoke;
+  text-decoration: none;
+  background-color: #53b89a;
+  font-size: 1.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  padding: 1px;
+  margin-right: 1%;
+  margin-left: 0.5rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.btnSubscribe:hover {
+  background-color: #1e8d6b;
+}
+
+.btnSubscribe span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  color: whitesmoke;
+}
+
+.btnSubscribe span:after {
+  content: '\00bb';
+  position: absolute;
+  color: whitesmoke;
+  opacity: 0;
+  top: 0;
+  right: -10px;
+  transition: 0.5s;
+}
+
+.btnSubscribe:hover span {
+  padding-right: 25px;
+}
+
+.btnSubscribe:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+
+/*******************************************SLIDER SPLITVIEW *****************************/
+/* Panels. */
+.splitview {
+  position: relative;
+  width: 100%;
+  min-height: 45vw;
+  overflow: hidden
+}
+
+.panel {
+  position: absolute;
+  width: 100vw;
+  min-height: 45vw;
+  overflow: hidden;
+}
+
+.panel .content {
+  position: absolute;
+  width: 100vw;
+  min-height: 45vw;
+  color: #FFF;
+}
+
+.panel .description {
+  width: 25%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: 'Tangerine', cursive;
+  text-align: center;
+}
+
+.panel .description h1,
+h2 {
+  font-family: 'Tangerine', cursive;
+  font-size: 5rem;
+
+}
+
+.panel .description h2 {
+  font-family: 'Tangerine', cursive;
+  font-size: 5rem;
+  color: black;
+}
+
+.panel img {
+  box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.15);
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bottom {
+  background-color: #53a89b;
+  z-index: 1;
+}
+
+.bottom .description {
+  right: 5%;
+}
+
+.top {
+  background-color: #1e1e1e;
+  z-index: 2;
+  width: 50vw;
+
+  /*-webkit-clip-path: polygon(60% 0, 100% 0, 100% 100%, 40% 100%);
+  clip-path: polygon(60% 0, 100% 0, 100% 100%, 40% 100%);*/
+}
+
+.top .description {
+  left: 5%;
+}
+
+/* Handle. */
+.handle {
+  height: 100%;
+  position: absolute;
+  display: block;
+  background-color: whitesmoke;
+  width: 5px;
+  top: 0;
+  left: 50%;
+  z-index: 3;
+}
+
+/* Skewed. */
+.skewed .handle {
+  top: 50%;
+  transform: rotate(30deg) translateY(-50%);
+  height: 200%;
+  -webkit-transform-origin: top;
+  -moz-transform-origin: top;
+  transform-origin: top;
+}
+
+.skewed .top {
+  transform: skew(-30deg);
+  margin-left: -1000px;
+  width: calc(50vw + 1000px);
+}
+
+.skewed .top .content {
+  transform: skew(30deg);
+  margin-left: 1000px;
+}
+
+/* Responsive. */
+@media (max-width: 900px) {
+  body {
+    font-size: 75%;
+  }
+}
+
+/********************************* Infocontact ***************************************************/
+.infocontact {
+  color: whitesmoke;
+  background-color: whitesmoke;
+  text-align: center;
+  font-size: 1.3rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.infocontact span,
+p {
+  color: black;
+}
+
+.infocontact h2 {
+  color: #53a89b;
+  font-family: 'Tangerine', cursive;
+  font-size: 7rem;
+}
+
+/****************************************** Cards yoga practices ***************************/
+.yogaPractices {
+  /*h1*/
+  display: flex;
+  justify-content: center;
+  background-color: #1e1e1e;
+  color: whitesmoke;
+  font-size: 3rem;
+  padding-top: 4rem;
+  font-family: 'Tangerine', cursive;
+}
+
+.yogaPractices h2 {
+  /*h2*/
+  font-size: 7rem;
+  font-family: 'Tangerine', cursive;
+}
+
+.containercard {
+  position: relative;
+  width: 17%;
+  padding-right: 2rem;
+  margin-bottom: 8rem;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  background-color: whitesmoke;
+}
+
+.overlay {
+  /*card flip*/
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 92%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #53b89a;
+}
+
+.overlay .text {
+  font-size: 2.1rem;
+}
+
+.containercard:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: #1e1e1e;
+  font-size: 1.3rem;
+  font-family: 'Great Vibes', cursive;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.allcards {
+  display: flex;
+  justify-content: center;
+  background-color: #1e1e1e;
+  padding-bottom: 7rem;
+  margin-bottom: 8rem;
+}
+
+
+/********************************** CONTACT FORM ******************/
+
+.contact-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding-top: 8rem;
+  margin-top: 8rem;
+  padding-bottom: 8rem;
+  background-color: #f1efef;
+}
+
+.wholeform form {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: auto;
+}
+
+.wholeform {
+  width: 50%;
+}
+
+#contact-form input,
+textarea {
+  background-color: transparent;
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: #53b89a;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+#contact-form label {
+  font-size: 2rem;
+}
+
+#contact-form input,
+textarea,
+placeholder {
+  color: black;
+}
+
+#contact-form input:focus {
+  border-color: whitesmoke;
+  transition: text-indent 0.4s 0.4s ease;
+  text-indent: -100%;
+  opacity: 1;
+}
+
+#contact-form button {
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  width: 14rem;
+  height: 4rem;
+  color: whitesmoke;
+  background-color: #53b89a;
+  border-radius: 0.5rem;
+  border: none;
+  margin-top: 1.2rem;
+  margin-left: 0.5rem;
+  padding: 1px;
+  margin-right: 1%;
+  cursor: pointer;
+}
+
+#contact-form button a {
+  /*link of btn*/
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+#contact-form button:hover {
+  cursor: pointer;
+  background-color: #1e8d6b;
+}
+
+.h2cf {
+  font-size: 1.5rem;
+  width: 50%;
+  position: relative;
+  bottom: 4rem;
+  font-family: 'Tangerine', cursive;
+}
+
+.h2cf h1 {
+  font-size: 3rem;
+  color: black;
+}
+
+.h2cf p {
+  font-size: 1.2rem;
+  color: black;
+}
+
+
+/************************ Scroll Top arrow ******************************/
+#myBtn {
+  position: fixed;
+  bottom: 14rem;
+  right: 1rem;
+  z-index: 99;
+  font-size: 0.8rem;
+  background-color: #53b89a;
+  color: #1e1e1e;
+  cursor: pointer;
+  padding: 2px;
+  border-radius: 4px;
+  width: 3rem;
+  height: 3rem;
+  border: none;
+}
+
+#myBtn i {
+  color: whitesmoke;
+  font-size: 1.5rem;
+  ;
+}
+
+#myBtn:hover {
+  background-color: #53a89b;
+}
+
+/************************* FOOTER ************************************/
+.logofooter {
+  width: 22rem;
+}
+
+footer {
+  display: flex;
+  /* align items horizontally */
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: whitesmoke;
+  height:20rem;
+}
+
+footer p {
+  font-size: 1.3rem;
+}
+
+div.iconsSMfooter i {
+  color: #53a89b;
+  padding: 8px;
+  font-size: 2.4rem;
+  margin-right: 1rem;
+}
+
+div.iconsSMfooter {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+div.iconsSMfooter i:hover {
+  color: #1e1e1e;
+}
+
+
+/*********************************** BURGER MENU ICON ***************************/
+.nav-toggle {
+  display: none;
+}
+
+/************************************ MEDIA QUERIES *********************************/
+/************************************ MEDIA QUERIES *********************************/
+/************************************ MEDIA QUERIES *********************************/
+/*for screens of 768 px and less*/
+@media only screen and (max-width: 768px) {
+  .iconsSM {
+    display: none;
+  }
+
+  section h1 {
+    font-size: 40px;
+  }
+
+  section p {
+    font-size: 18px;
+    margin: 0px 10px 0px 10px;
+  }
+
+  button {
+    width: 130px;
+  }
+
+  .msg {
+    /*input Message in contact form*/
+    width: 220px;
+  }
+
+  .btnsend {
+    /*Btn Contatez-moi*/
+    width: 7.2rem;
+    margin-left: -0.1rem;
+    font-size: 1.2rem;
+  }
+
+  footer p {
+    font-size: 13px;
+  }
+
+  #myBtn {
+    /*Scroll up arrow Btn*/
+    display: none;
+  }
+
+  .iconsSMfooter i {
+    font-size: 1.2rem;
+  }
+
+  /************************ BURGER MENU DROPDOWN *********************************/
+  nav {
+    display: flex;
+    height: auto;
+    /* covers blanks in between tabs*/
+    padding-top: 25px;
+    justify-content: space-between;
+  }
+
+  .nav-toggle {
+    display: block;
+    color: #1e8d6b;
+    background-color: transparent;
+    font-size: 2rem;
+    border-style: none;
+    cursor: pointer;
+  }
+
+  .tabs {
+    display: none;
+    /*i hide the tabs a, i see them only when i ll click on the burger icon*/
+    width: 100%;
+    text-align: center;
+  }
+
+  .tabs a {
+    background-color: #1e8d6b;
+    width: 100%;
+    font-size: 1.3rem;
+    color: #1e1e1e;
+    padding: 1.3rem;
+  }
+
+  .tabs a i {
+    display: none;
+  }
+
+  .tabs a:hover {
+    color: whitesmoke;
+  }
+
+  .showtabs {
+    /* will tell JS to use it when I ll need to display the tabs a after clicking on the burger menu icon, no need to add this class in html*/
+    display: block;
+  }
+
+  .logo {
+    margin-left: 20px;
+    width: 15rem;
+  }
+
+  .btnenrol button {
+    display: none;
+  }
+
+  .btnenrol a {
+    display: none;
+  }
+
+  /************************************Slider imgs media queries***************************/
+  .h2sliderimgs h2 {
+    font-size: 3rem;
+    padding-top: 4rem;
+    padding-bottom: 6rem;
+    color: whitesmoke;
+    background-color: #1e1e1e;
+  }
+
+  img {
+    vertical-align: middle;
+  }
+
+  .container.mySlides {
+    height: 200px;
+    width: 100px;
+  }
+
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+    background-color: #1e1e1e;
+    overflow: hidden;
+    padding-bottom: 1rem;
+  }
+
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+    width: 100%;
+    max-height: 600px;
+  }
+
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 60%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  /* On hover, add a #1e1e1e background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    padding: 2px 16px;
+    background-color: #1e1e1e;
+  }
+
+  .caption-container p {
+    color: whitesmokesmoke;
+    font-size: 2rem;
+    ;
+  }
+
+  .row {
+    background-color: #1e1e1e;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* Six columns side by side */
+  .column {
+    float: left;
+    overflow: hidden;
+    width: 16.66%;
+  }
+
+  .column img {
+    overflow: hidden;
+    width: 100%;
+  }
+
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }

@@ -1,0 +1,306 @@
+/* GENERAL*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Work Sans', sans-serif;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/************************************ HEADER NAV *******************************************************/
+/* logo is child of nav */
+.logo {
+  width: 20rem;
+  margin-left: 3rem;
+  padding-bottom: 5rem;
+}
+
+/* is parent of logo and tabs a*/
+nav {
+  width: 100%;
+  height: 19rem;
+  background-color: #f1efef;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/*a are children of tabs*/
+.tabs {
+  /* is child of nav and parent of the a*/
+  display: flex;
+  width: 60%;
+  justify-content: space-around;
+
+}
+
+.tabs>a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #1e8d6b;
+  display: block;
+}
+
+.tabs>a:hover {
+  color: #53a89b;
+}
+
+.btnenrol button {
+  width: 10rem;
+  height: 3rem;
+  color: whitesmoke;
+  background-color: #53b89a;
+  border-radius: 0.5rem;
+  border: none;
+  margin-left: 0.5rem;
+  font-size: 1.3rem;
+  margin-right: 1%;
+  cursor: pointer;
+}
+
+.btnenrol button a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.btnenrol button:hover {
+  background-color: #1e8d6b;
+  box-shadow: 2px 2px 2px 0px;
+}
+
+/***for iconsSM******/
+.iconsSM>a>i {
+  font-size: 2rem;
+  color: #53b89a;
+  margin-left: 1rem;
+}
+
+.iconsSM>a>i:hover {
+  color: #1e8d6b;
+}
+
+/***for iconsLog******/
+.iconsLog>a>i {
+  font-size: 1.9rem;
+  color: #53b89a;
+  margin-left: 1rem;
+}
+
+.iconsLog>a>i:hover {
+  color: #1e8d6b;
+}
+
+/************************** MAIN SECTION ********************************/
+
+.teacher i {
+  display: flex;
+  padding-top: 20rem;
+  justify-content: center;
+}
+
+h2 {
+  color: #1e1e1e;
+  font: 30px Arial, sans-serif;
+  text-shadow: 0px 1px black;
+  text-align: center;
+  padding-top: 5rem;
+  ;
+}
+
+.mat {
+  width: 3.5rem;
+  height: 8rem;
+  font-size: 10;
+  text-align: center;
+  background: #53b89a;
+  background: linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+  margin: 5px auto;
+  box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+
+.mat label {
+  cursor: pointer;
+  color: #1e1e1e;
+  position: absolute;
+  width: 2.5rem;
+  height: 4.5rem;
+  left: 0.5rem;
+  top: 0.9rem;
+  font-size: 1.5rem;
+}
+
+.mat:hover {
+  background-color: #1e8d6b;
+}
+
+.parent {
+  width: 25rem;
+  height: 44rem;
+  background-color: #dcdcdc;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+}
+
+.wholecontainer div {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.div1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.div2 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.div3 {
+  grid-area: 1 / 3 / 2 / 4;
+}
+
+.div4 {
+  grid-area: 1 / 4 / 2 / 5;
+}
+
+.div5 {
+  grid-area: 2 / 1 / 3 / 2;
+}
+
+.div6 {
+  grid-area: 2 / 2 / 3 / 3;
+}
+
+.div7 {
+  grid-area: 2 / 3 / 3 / 4;
+}
+
+.div8 {
+  grid-area: 2 / 4 / 3 / 5;
+}
+
+.div9 {
+  grid-area: 3 / 1 / 4 / 2;
+}
+
+.div10 {
+  grid-area: 3 / 2 / 4 / 3;
+}
+
+.div11 {
+  grid-area: 3 / 3 / 4 / 4;
+}
+
+.div12 {
+  grid-area: 3 / 4 / 4 / 5;
+}
+
+.div13 {
+  grid-area: 4 / 1 / 5 / 2;
+}
+
+.div14 {
+  grid-area: 4 / 2 / 5 / 3;
+}
+
+.div15 {
+  grid-area: 4 / 3 / 5 / 4;
+}
+
+.div16 {
+  grid-area: 4 / 4 / 5 / 5;
+}
+
+.div17 {
+  grid-area: 5 / 1 / 6 / 2;
+}
+
+.div18 {
+  grid-area: 5 / 2 / 6 / 3;
+}
+
+.div19 {
+  grid-area: 5 / 3 / 6 / 4;
+}
+
+.div20 {
+  grid-area: 5 / 4 / 6 / 5;
+}
+
+/************************slider ***************/
+/************************ Scroll Top arrow ******************************/
+#myBtn {
+  position: fixed;
+  bottom: 14rem;
+  right: 1rem;
+  z-index: 99;
+  font-size: 0.8rem;
+  background-color: #53b89a;
+  color: #1e1e1e;
+  cursor: pointer;
+  padding: 2px;
+  border-radius: 4px;
+  width: 3rem;
+  height: 3rem;
+  border: none;
+}
+
+#myBtn i {
+  color: whitesmoke;
+  font-size: 1.5rem;
+  ;
+}
+
+#myBtn:hover {
+  background-color: #53a89b;
+}
+
+/************************* FOOTER ************************************/
+.logofooter {
+  width: 22rem;
+}
+
+footer {
+  display: flex;
+  /* align items horizontally */
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: whitesmoke;
+  height:20rem;
+}
+
+footer p {
+  font-size: 1.3rem;
+}
+
+div.iconsSMfooter i {
+  color: #53a89b;
+  padding: 8px;
+  font-size: 2.4rem;
+  margin-right: 1rem;
+}
+
+div.iconsSMfooter {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+div.iconsSMfooter i:hover {
+  color: #1e1e1e;
+}
+
+/*********************************** BURGER MENU ICON ***************************/
+.nav-toggle {
+  display: none;
+}

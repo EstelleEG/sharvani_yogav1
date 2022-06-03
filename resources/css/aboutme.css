@@ -1,0 +1,289 @@
+/* GENERAL*/
+*{      
+  margin:0;
+  padding:0;
+  font-family: 'Work Sans', sans-serif;
+  scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+}
+
+/************************************ HEADER NAV *******************************************************/
+/* logo is child of nav */
+.logo {
+  width: 20rem;
+  margin-left: 3rem;
+  padding-bottom: 5rem;
+}
+
+/* is parent of logo and tabs a*/
+nav {
+  width: 100%;
+  height: 19rem;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/*a are children of tabs*/
+.tabs {
+  /* is child of nav and parent of the a*/
+  display: flex;
+  width: 60%;
+  justify-content: space-around;
+
+}
+
+.tabs>a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #1e8d6b;
+  display: block;
+}
+
+.tabs>a:hover {
+  color: #53a89b;
+}
+
+.btnenrol button {
+  width: 10rem;
+  height: 3rem;
+  color: whitesmoke;
+  background-color: #53b89a;
+  border-radius: 0.5rem;
+  border: none;
+  margin-left: 0.5rem;
+  font-size: 1.3rem;
+  margin-right: 1%;
+  cursor: pointer;
+}
+
+.btnenrol button a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.btnenrol button:hover {
+  background-color: #1e8d6b;
+  box-shadow: 2px 2px 2px 0px;
+}
+
+/***for iconsSM******/
+.iconsSM>a>i {
+  font-size: 2rem;
+  color: #53b89a;
+  margin-left: 1rem;
+}
+
+.iconsSM>a>i:hover {
+  color: #1e8d6b;
+}
+
+/***for iconsLog******/
+.iconsLog>a>i {
+  font-size: 1.9rem;
+  color: #53b89a;
+  margin-left: 1rem;
+}
+
+.iconsLog>a>i:hover {
+  color: #1e8d6b;
+}
+
+  /****************************************** MAIN SECTION ******************************************/
+  section{
+      display:flex;
+      align-items: center;
+      width:100%;
+      background-color:#f1efef;
+      flex-wrap: wrap;
+      padding-top: 6rem;
+      padding-bottom: 4rem;
+    }
+  
+    
+  .idmeimg img{
+    border-radius: 5px;
+    width:35rem;
+    padding-top: 13rem;
+    }
+    
+    .textintro{
+      color:#53a89b;
+      
+    }
+    
+    .textintro h3{
+      font-size: 5rem;
+      font-family: 'Tangerine', cursive;
+    }
+    
+   .textintro h1{
+      font-size: 6rem;
+      font-family: 'Tangerine', cursive;
+    }
+    
+    .textintro p{
+      font-size: 1.5rem;
+      color:#1e1e1e;
+      
+    }
+    
+    .textintro h3, h1, p{
+      padding:0.6rem;
+    }
+    
+  /******************************* Btn download CV ****************************************************/
+  .btncv a{  /*link of btn*/
+      text-decoration: none;
+      color:whitesmoke;
+    }
+    
+    .btncv{
+      width:19rem;
+      height: 4rem;
+      color: whitesmoke;
+      background-color: #53b89a;
+      border-radius: 0.5rem;
+      border:none;
+      margin-top: 1.2rem;
+      margin-left: 0.5rem;
+      text-decoration: none;
+      font-size: 1.5rem;
+      padding:1px;
+      margin-right: 1%;
+      cursor: pointer;
+    }
+    
+    .btncv:hover {
+      background-color: #1e8d6b;
+      box-shadow: 2px 2px 2px 0px;
+    }
+  
+    /************ Icon download CV **********************/
+    .btncv i{
+    color:whitesmoke;
+    margin-right: 0.5rem;
+    }
+    
+  
+    /********************************** Btn Portfolio ***************************************************/
+    .btnportfolio{
+      width:14rem;
+      height: 4rem;
+      color:whitesmoke;
+      text-decoration: none;
+      background-color: #53b89a;
+      font-size: 1.5rem;
+      border-radius: 0.5rem;
+      border:none;
+      padding:1px;
+      margin-right: 1%;
+      margin-left: 0.5rem;
+      margin-top: 1rem;
+      cursor: pointer;
+      transition: all 0.5s;
+    }
+    
+    .btnportfolio:hover {
+      background-color: #1e8d6b;
+    }
+  
+    .btnportfolio span{
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+      color:whitesmoke;
+    }
+    .btnportfolio span:after {
+      content: '\00bb';
+      position: absolute;
+      color:whitesmoke;
+      opacity: 0;
+      top: 0;
+      right: -10px;
+      transition: 0.5s;
+    }
+    
+    .btnportfolio:hover span {
+      padding-right: 25px;
+    }
+    
+    .btnportfolio:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+
+
+
+/************************ Scroll Top arrow ******************************/
+#myBtn {
+  position: fixed;
+  bottom: 14rem;
+  right: 1rem;
+  z-index: 99;
+  font-size: 0.8rem;
+  background-color: #53b89a;
+  color: #1e1e1e;
+  cursor: pointer;
+  padding: 2px;
+  border-radius: 4px;
+  width:3rem;
+  height: 3rem;
+  border:none;
+}
+
+#myBtn i {
+color:whitesmoke;
+font-size: 1.5rem;;
+}
+
+#myBtn:hover {
+  background-color: #53a89b;
+}
+
+/************************* FOOTER ************************************/
+.logofooter {
+  width: 22rem;
+}
+
+footer {
+  display: flex;
+  /* align items horizontally */
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: whitesmoke;
+  height:20rem;
+}
+
+footer p {
+  font-size: 1.3rem;
+}
+
+div.iconsSMfooter i {
+  color: #53a89b;
+  padding: 8px;
+  font-size: 2.4rem;
+  margin-right: 1rem;
+}
+
+div.iconsSMfooter {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+div.iconsSMfooter i:hover {
+  color: #1e1e1e;
+}
+
+
+  /*********************************** BURGER MENU ICON ***************************/
+.nav-toggle{
+  display:none;
+}
