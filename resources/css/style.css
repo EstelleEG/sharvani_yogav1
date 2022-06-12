@@ -754,7 +754,7 @@ div.iconsSMfooter i:hover {
   }
 
   .tabs a {
-    background-color: #1e8d6b;
+    background-color: #38b18d;
     width: 100%;
     font-size: 1.3rem;
     color: #1e1e1e;
@@ -784,6 +784,14 @@ div.iconsSMfooter i:hover {
   }
 
   .btnenrol a {
+    display: none;
+  }
+
+  .iconsSM{
+    display: none;
+  }
+
+  .iconsLog {
     display: none;
   }
 
@@ -907,3 +915,4 @@ div.iconsSMfooter i:hover {
   .demo:hover {
     opacity: 1;
   }
+}

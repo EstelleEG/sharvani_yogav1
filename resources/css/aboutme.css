@@ -291,3 +291,80 @@ div.iconsSMfooter i:hover {
 .nav-toggle{
   display:none;
 }
+
+/************************************ MEDIA QUERIES *********************************/
+/************************************ MEDIA QUERIES *********************************/
+/************************************ MEDIA QUERIES *********************************/
+/*for screens of 768 px and less*/
+@media only screen and (max-width: 768px) {
+/************************ BURGER MENU DROPDOWN *********************************/
+nav {
+  display: flex;
+  height: auto;
+  /* covers blanks in between tabs*/
+  padding-top: 25px;
+  justify-content: space-between;
+}
+
+.nav-toggle {
+  display: block;
+  padding-right: 3rem;
+  color: #1e8d6b;
+  background-color: transparent;
+  font-size: 2rem;
+  border-style: none;
+  cursor: pointer;
+}
+
+.tabs {
+  display: none;
+  /*i hide the tabs a, i see them only when i ll click on the burger icon*/
+  width: 100%;
+  text-align: center;
+}
+
+.tabs a {
+  background-color: #38b18d;
+  width: 100%;
+  font-size: 1.3rem;
+  color: #1e1e1e;
+  padding: 1.3rem;
+}
+
+.tabs a i {
+  display: none;
+}
+
+.tabs a:hover {
+  color: whitesmoke;
+}
+
+.showtabs {
+  /* will tell JS to use it when I ll need to display the tabs a after clicking on the burger menu icon, no need to add this class in html*/
+  display: block;
+}
+
+.logo {
+  margin-left: 20px;
+  width: 15rem;
+}
+
+.btnenrol button {
+  display: none;
+}
+
+.btnenrol a {
+  display: none;
+}
+
+.iconsSM{
+  display: none;
+}
+
+.iconsLog {
+  display: none;
+}
+
+}
+
+
