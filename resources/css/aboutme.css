@@ -105,12 +105,11 @@ nav {
       padding-bottom: 4rem;
     }
   
-    
   .idmeimg img{
     border-radius: 5px;
     width:35rem;
     padding-top: 13rem;
-    }
+  }
     
     .textintro{
       color:#53a89b;
@@ -159,15 +158,20 @@ nav {
       cursor: pointer;
     }
     
-    .btncv:hover {
-      background-color: #1e8d6b;
-      box-shadow: 2px 2px 2px 0px;
+    .btncv:hover{
+      background-color:#53b89a;
     }
-  
+
+    .btncv:hover a{
+      color:whitesmoke;
+    }
+
+
     /************ Icon download CV **********************/
     .btncv i{
     color:whitesmoke;
     margin-right: 0.5rem;
+    text-decoration: none;
     }
     
   

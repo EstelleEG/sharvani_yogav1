@@ -1,15 +1,14 @@
 /* GENERAL*/
-* {
-  margin: 0;
-  padding: 0;
+*{      
+  margin:0;
+  padding:0;
   font-family: 'Work Sans', sans-serif;
   scroll-behavior: smooth;
 }
 
-a {
-  text-decoration: none;
+a{
+    text-decoration: none;
 }
-
 
 /************************************ HEADER NAV *******************************************************/
 /* logo is child of nav */
@@ -23,7 +22,7 @@ a {
 nav {
   width: 100%;
   height: 19rem;
-  background-color: #f1efef;
+  background-color: whitesmoke;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -95,7 +94,99 @@ nav {
   color: #1e8d6b;
 }
 
-/************************** MAIN SECTION ********************************/
+  /****************************************** MAIN SECTION ******************************************/
+  section{
+      display:flex;
+      align-items: center;
+      width:100%;
+      background-color:#f1efef;
+      flex-wrap: wrap;
+      padding-top: 6rem;
+      padding-bottom: 4rem;
+    }
+    
+  .idmeimg img{
+    border-radius: 5px;
+    width:25rem;
+    height: 25rem;
+    padding-top: 5rem;
+    }
+
+    .textintro{
+      color:#53a89b;
+      padding-left: 5rem;
+      
+    }
+
+    .textintro h3{
+      font-size: 5rem;
+      font-family: 'Tangerine', cursive;
+    }
+    
+   .textintro h1{
+      font-size: 6rem;
+      font-family: 'Tangerine', cursive;
+    }
+    
+    .textintro p{
+      font-size: 1.5rem;
+      color:#1e1e1e;
+    }
+    
+    .textintro h3, h1, p{
+      padding:0.6rem;
+    }
+    
+
+    /********************************** Btn Book class 2days***************************************************/
+    .btnportfolio{
+      width:15rem;
+      height: 4rem;
+      color:whitesmoke;
+      text-decoration: none;
+      background-color: #53b89a;
+      font-size: 1.1rem;
+      border-radius: 0.5rem;
+      border:none;
+      padding:1px;
+      margin-right: 1%;
+      margin-left: 0.5rem;
+      margin-top: 1rem;
+      cursor: pointer;
+      transition: all 0.5s;
+    }
+    
+    .btnportfolio:hover {
+      background-color: #1e8d6b;
+    }
+  
+    .btnportfolio span{
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+      color:whitesmoke;
+    }
+    .btnportfolio span:after {
+      content: '\00bb';
+      position: absolute;
+      color:whitesmoke;
+      opacity: 0;
+      top: 0;
+      right: -10px;
+      transition: 0.5s;
+    }
+    
+    .btnportfolio:hover span {
+      padding-right: 25px;
+    }
+    
+    .btnportfolio:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+
+/************************** MATS MAIN SECTION MATS********************************/
 .teacher i {
   display: flex;
   padding-top: 20rem;
@@ -108,6 +199,7 @@ h2 {
   text-shadow: 0px 1px black;
   text-align: center;
   padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .mat {
@@ -145,9 +237,8 @@ h2 {
   grid-template-rows: repeat(6, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  margin-bottom: 5rem;
-  margin-top: 5rem;
-  padding-top: 5rem;
+  margin-bottom: 10rem;
+  padding-top: 2rem;
 }
 
 .wholecontainer div {
@@ -204,37 +295,6 @@ h2 {
   grid-area: 3 / 4 / 4 / 5;
 }
 
-.div13 {
-  grid-area: 4 / 1 / 5 / 2;
-}
-
-.div14 {
-  grid-area: 4 / 2 / 5 / 3;
-}
-
-.div15 {
-  grid-area: 4 / 3 / 5 / 4;
-}
-
-.div16 {
-  grid-area: 4 / 4 / 5 / 5;
-}
-
-.div17 {
-  grid-area: 5 / 1 / 6 / 2;
-}
-
-.div18 {
-  grid-area: 5 / 2 / 6 / 3;
-}
-
-.div19 {
-  grid-area: 5 / 3 / 6 / 4;
-}
-
-.div20 {
-  grid-area: 5 / 4 / 6 / 5;
-}
 
 /************************slider ***************/
 /************************ Scroll Top arrow ******************************/
