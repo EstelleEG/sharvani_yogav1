@@ -102,7 +102,7 @@ nav {
       background-color:#f1efef;
       flex-wrap: wrap;
       padding-top: 6rem;
-      padding-bottom: 4rem;
+      padding-bottom: 30rem;
     }
 
   .img-fluid{
@@ -117,7 +117,7 @@ nav {
     
     .textintro{
       color:#53a89b;
-      
+      margin-left: 5rem;
     }
     
     .textintro h3{
