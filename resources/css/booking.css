@@ -99,7 +99,7 @@ nav {
       display:flex;
       align-items: center;
       width:100%;
-      background-color:#f1efef;
+      /* background-color:#f1efef; */
       flex-wrap: wrap;
       padding-top: 6rem;
       padding-bottom: 4rem;

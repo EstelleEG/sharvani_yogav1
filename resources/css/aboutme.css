@@ -104,6 +104,10 @@ nav {
       padding-top: 6rem;
       padding-bottom: 4rem;
     }
+
+  .img-fluid{
+    margin-right:2rem;
+  }
   
   .idmeimg img{
     border-radius: 5px;
