@@ -21,8 +21,8 @@ a{
 /* is parent of logo and tabs a*/
 nav {
   width: 100%;
-  height: 19rem;
-  background-color: whitesmoke;
+  height: 14rem;
+  background-color: #f1efef;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -53,7 +53,7 @@ nav {
   width: 10rem;
   height: 3rem;
   color: whitesmoke;
-  background-color: #53b89a;
+  background-color: #1e8d6b;
   border-radius: 0.5rem;
   border: none;
   margin-left: 0.5rem;
@@ -68,11 +68,20 @@ nav {
 }
 
 .btnenrol button:hover {
-  background-color: #1e8d6b;
+  background-color: #53b89a;
   box-shadow: 2px 2px 2px 0px;
 }
 
 /***for iconsSM******/
+.iconsSM {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  padding-right: 5rem;
+  padding-top: 3rem;
+  background-color: #f1efef;
+}
+
 .iconsSM>a>i {
   font-size: 2rem;
   color: #53b89a;
@@ -82,6 +91,8 @@ nav {
 .iconsSM>a>i:hover {
   color: #1e8d6b;
 }
+
+
 
 /***for iconsLog******/
 .iconsLog>a>i {
@@ -93,6 +104,7 @@ nav {
 .iconsLog>a>i:hover {
   color: #1e8d6b;
 }
+
 
   /****************************************** MAIN SECTION ******************************************/
   section{
