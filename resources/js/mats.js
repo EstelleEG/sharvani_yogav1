@@ -1,7 +1,5 @@
 console.log('mats')
 
-let leHeader = document.querySelector('header')
-
 // I catch all Divs/btns 
 // divs are direct kids of btn-container
 let theMats  = document.querySelectorAll('#matcontainer>.mat')
@@ -38,5 +36,5 @@ function cleanDiv(){
 
 function superChangeColor(bgColor){
 	//console.log('superChangeColor')
-	leHeader.style.backgroundColor = bgColor
+	mat.style.backgroundColor = bgColor
 }
