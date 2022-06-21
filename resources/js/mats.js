@@ -1,6 +1,6 @@
 console.log('mats')
 
-//let leHeader = document.querySelector('header')
+let leHeader = document.querySelector('header')
 
 // I catch all Divs/btns 
 // divs are direct kids of btn-container
@@ -14,7 +14,7 @@ for (let i = 0; i < theMats.length; i++) {
 	console.log(oneMat) //show each color btn
 
 	oneMat.addEventListener('click',function(){
-		//console.log(oneMat.style.backgroundColor)
+		console.log(oneMat.style.backgroundColor)
 		//first, i take out the class 'selectedDiv'
 		// to all divs
 		cleanDiv()
