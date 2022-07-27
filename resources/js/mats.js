@@ -1,4 +1,4 @@
-console.log('mats')
+/*console.log('mats')
 
 // I catch all Divs/btns 
 // divs are direct kids of btn-container
@@ -37,4 +37,4 @@ function cleanDiv(){
 function superChangeColor(bgColor){
 	//console.log('superChangeColor')
 	mat.style.backgroundColor = bgColor
-}
+}*/

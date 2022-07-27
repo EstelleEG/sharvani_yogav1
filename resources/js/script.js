@@ -1,5 +1,3 @@
-
-
 /////////////////////////////////////////////////////////////////////
 //Burger menu
 function burgerMenu() {
@@ -12,6 +10,7 @@ function burgerMenu() {
     dropdown.className = "tabs";
   }
 }
+
 
 
 /////////////////////////////////////////////////////////////////////
@@ -32,6 +31,7 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
 
 
 ///////////////////SLIDER JS////////////////////////

@@ -1,21 +1,22 @@
-////////////////////////////////////////////////CONTACT FORM 
+////////////////////CONTACT FORM////////////////////////
+///
 (function () {
     emailjs.init("4riFHalEW_nXH8pM7");
   })();
 
-// //check and send confirmation 
-// function ValidateEmail(mail) 
-// {
-//   if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(myForm.emailAddr value))
-//   {
-//     alert("mail sent !")
-//     return (true)
-//   }
-//      alert("You have entered an invalid email address!")
-//     return (false)
-// }
+// check and send confirmation 
+ function ValidateEmail(mail) 
+ {
+   if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(myForm.emailAddr, value))
+   {
+     alert("mail sent !")
+     return (true)
+   }
+      alert("You have entered an invalid email address!")
+     return (false)
+ }
   
-  //get the inputs
+// get the inputs
   function sendmail() {
     let fullName = document.getElementById("name").value;
     let userEmail = document.getElementById("email").value;
@@ -27,7 +28,7 @@
       message: userMessage
     };
 
-  //smtpjs
+//smtpjs
     emailjs
     .send('service_vbfmzcj', 'template_zm0k9yn', contactParams)
     .then(function (res) { });
